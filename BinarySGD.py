@@ -11,7 +11,7 @@ from sklearn.metrics import accuracy_score
 
 def displayConfusionMatrix(cm,cmap=plt.cm.GnBu):
     classes=["Other Number","Number 5"]
-    plt.imshow(cm,interpolation='nearest',cmap=cmap)
+    plt.imshow(cm,interpolati   on='nearest',cmap=cmap)
     plt.title("Confusion Matrix")
     plt.colorbar()
     trick_marks=np.arange(len(classes))
