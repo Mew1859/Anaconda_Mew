@@ -32,7 +32,7 @@ predict_data = 5500
 displayImage(x_test[5500])
 displayPredict(sgd,y_train_0[predict_data],x_test[predict_data])
 
-
+545
 
 
 
